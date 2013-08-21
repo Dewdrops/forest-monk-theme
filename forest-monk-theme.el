@@ -19,9 +19,10 @@
 (deftheme forest-monk
   "High Contrast faces with a dark background.
 Adapted from color-theme-calm-forest")
+
 (custom-theme-set-faces
  'forest-monk
- '(default ((t (:stipple nil :background "gray12" :foreground "green" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :family "outline-courier new"))))
+ '(default ((t (:background "gray12" :foreground "green"))))
  '(Info-title-1-face ((t (:bold t :weight bold :family "helv" :height 1.728))))
  '(Info-title-2-face ((t (:bold t :family "helv" :weight bold :height 1.44))))
  '(Info-title-3-face ((t (:bold t :weight bold :family "helv" :height 1.2))))
@@ -140,6 +141,26 @@ Adapted from color-theme-calm-forest")
  '(widget-documentation-face ((t (:foreground "lime green"))))
  '(widget-field-face ((t (:background "dim gray"))))
  '(widget-inactive-face ((t (:foreground "light gray"))))
- '(widget-single-line-field-face ((t (:background "dim gray")))))
+ '(widget-single-line-field-face ((t (:background "dim gray"))))
+ ;; Added by Vv4474 @ Thu Jun 27 16:27:57 2013
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "yellow"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "lawn green"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "cyan"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "deep sky blue"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "steel blue"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "light slate blue"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "violet"))))
+ '(rainbow-delimiters-depth-8-face ((t (:foreground "maroon"))))
+ '(rainbow-delimiters-depth-9-face ((t (:foreground "coral1"))))
+ '(rainbow-delimiters-unmatched-face ((t (:background "light gray" :foreground "firebrick4"))))
+ )
 
 (provide-theme 'forest-monk)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
+;; End:
+
+;;; forest-monk-theme.el ends here.
